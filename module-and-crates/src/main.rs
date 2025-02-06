@@ -1,10 +1,8 @@
 use module_and_crates::potions;
 use module_and_crates::weapons;
-mod maps {
-    pub fn use_items() {
-        println!("I'm using maps!");
-    }
-}
+use module_and_crates::maps;
+
+
 
 fn main() {
     potions::use_items();
