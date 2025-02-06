@@ -3,8 +3,4 @@ pub mod potions {
         println!("I'm using potions!");
     }
 }
-pub mod weapons {
-    pub fn use_items() {
-        println!("I'm using weapons!");
-    }
-}
+pub mod weapons;
